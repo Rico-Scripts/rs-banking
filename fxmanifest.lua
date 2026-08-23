@@ -6,6 +6,8 @@ author 'Rico Scripts'
 description 'RS Banking with bank branches, secure PIN terminals and ATM transactions'
 version '1.0.0'
 
+rs_sql 'sql/rs-banking.sql'
+
 ui_page 'web/index.html'
 
 shared_scripts { '@ox_lib/init.lua', 'config.lua' }
